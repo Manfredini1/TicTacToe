@@ -126,7 +126,7 @@ public class principal {
 
             if (vencedor) {
                 jogador2.adicionaPonto();
-                System.out.println(jogador2.getNome() + " ganhou esta rodada e está com " + jogador1.getPontuacao() + " ponto(s)");
+                System.out.println(jogador2.getNome() + " ganhou esta rodada e está com " + jogador2.getPontuacao() + " ponto(s)");
                 break;
             }
             if (jogoDaVelha.getJogadasRestantes() == 0) {
